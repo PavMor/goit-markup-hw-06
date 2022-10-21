@@ -239,8 +239,9 @@ li {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #f5f4fa;
-  color: var(--secondary-text-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
 }
 
 .backdrop.is-hidden {
@@ -796,6 +797,69 @@ li {
 .websites-links-footer:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
+}
+
+.form-subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 93px;
+}
+
+.label-subscribe {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-bg-color);
+}
+
+.input-subscribe {
+  padding: 15px 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.subscribe-btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  height: 50px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  top: 42px;
+  bottom: -212px;
+}
+
+.icon-plane {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
 }
 
 /* portfolio.html */
