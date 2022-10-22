@@ -91,33 +91,48 @@
                 <h2>Залиште свої дані, ми вам передзвонимо</h2>
                 <div class="form-name">
                   <label class="form-name-label" for="name">Ім'я</label>
-                  <input
-                    class="form-name-input"
-                    type="text"
-                    name="name"
-                    id="name"
-                    autofocus
-                  />
+                  <div class="name-man-icon">
+                    <input
+                      class="form-name-input"
+                      type="text"
+                      name="name"
+                      id="name"
+                      autofocus
+                    />
+                    <svg class="icon-man">
+                      <use href="./images/symbol-defs.svg#icon-man"></use>
+                    </svg>
+                  </div>
                 </div>
                 <div class="form-tel">
                   <label class="form-tel-label" for="tel">Телефон</label>
-                  <input
-                    class="form-tel-input"
-                    type="tel"
-                    name="tel"
-                    id="tel"
-                    autofocus
-                  />
+                  <div class="tel-tube-icon">
+                    <input
+                      class="form-tel-input"
+                      type="tel"
+                      name="tel"
+                      id="tel"
+                      autofocus
+                    />
+                    <svg class="icon-tube">
+                      <use href="./images/symbol-defs.svg#icon-tube"></use>
+                    </svg>
+                  </div>
                 </div>
                 <div class="form-mail">
                   <label class="form-mail-label" for="mail">Пошта</label>
-                  <input
-                    class="form-mail-input"
-                    type="email"
-                    name="mail"
-                    id="mail"
-                    autofocus
-                  />
+                  <div class="email-icon">
+                    <input
+                      class="form-mail-input"
+                      type="email"
+                      name="mail"
+                      id="mail"
+                      autofocus
+                    />
+                    <svg class="icon-email">
+                      <use href="./images/symbol-defs.svg#icon-email"></use>
+                    </svg>
+                  </div>
                 </div>
                 <div class="form-comment">
                   <label class="form-comment-label" for="comment"
@@ -139,9 +154,13 @@
                     id="agreement"
                   />
                   <label class="form-checkbox-label" for="agreement"
-                    >Погоджуюся з розсилкою та приймаю Умови договору</label
-                  >
+                    >Погоджуюся з розсилкою та приймаю&nbsp
+                    <a class="agreement" href="./index.html" lang="en">
+                      Умови договору</a
+                    >
+                  </label>
                 </div>
+                <button type="button" class="modal-send-btn">Відправити</button>
               </form>
             </div>
           </div>

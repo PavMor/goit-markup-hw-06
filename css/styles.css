@@ -309,6 +309,7 @@ li {
 }
 
 .form-name {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -332,10 +333,25 @@ li {
   margin-right: 40px;
   margin-bottom: 10px;
   margin-left: 40px;
+  padding-left: 42px;
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.icon-man {
+  position: absolute;
+  top: 32px;
+  left: 55px;
+  width: 12px;
+  height: 12px;
+}
+
+.form-tel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-tel-label {
@@ -357,10 +373,25 @@ li {
   margin-right: 40px;
   margin-bottom: 10px;
   margin-left: 40px;
+  padding-left: 42px;
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.icon-tube {
+  position: absolute;
+  top: 32px;
+  left: 55px;
+  width: 13px;
+  height: 13px;
+}
+
+.form-mail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-mail-label {
@@ -382,10 +413,19 @@ li {
   margin-right: 40px;
   margin-bottom: 10px;
   margin-left: 40px;
+  padding-left: 42px;
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.icon-email {
+  position: absolute;
+  top: 32px;
+  left: 55px;
+  width: 15px;
+  height: 12px;
 }
 
 .form-comment-label {
@@ -447,6 +487,30 @@ li {
   color: var(--primary-text-color);
   margin-right: 0;
   padding-right: 0;
+}
+
+.agreement {
+  color: var(--accent-color);
+}
+
+.modal-send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 163px;
+  margin-bottom: 40px;
+  margin-left: 165px;
+  width: 200px;
+  height: 50px;
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 
 /* section advantages */
