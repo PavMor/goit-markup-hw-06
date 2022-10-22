@@ -1089,6 +1089,7 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-bg-color);
+  cursor: pointer;
 }
 
 .input-subscribe {
@@ -1101,6 +1102,11 @@ li {
   background-color: #2f303a;
   color: #ffffff;
   cursor: pointer;
+  outline: none;
+}
+
+.input-subscribe:focus {
+  border: 1px solid var(--accent-color);
 }
 
 .subscribe-btn {
