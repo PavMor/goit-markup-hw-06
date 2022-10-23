@@ -541,6 +541,7 @@ li {
 }
 
 .form-checkbox {
+  position: relative;
   display: flex;
   font-display: row;
 }
@@ -555,10 +556,7 @@ li {
   height: 15px;
   background-color: var(--secondary-text-color);
   cursor: pointer;
-
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  visibility: hidden;
 }
 
 .form-checkbox-label {
@@ -572,6 +570,24 @@ li {
   margin-right: 0;
   padding-right: 0;
   cursor: pointer;
+}
+
+.checkbox-icon {
+  position: absolute;
+  top: 4px;
+  left: 54px;
+  width: 16px;
+  height: 15px;
+  border: 0.2px solid var(--secondary-text-color);
+  border-radius: 2px;
+}
+
+.form-checkbox-input:checked + .checkbox-icon {
+  border-color: transparent;
+  background-color: var(--accent-color);
+  background-image: url("../images/symbol-defs.svg#icon-checkbox-last");
+  background-size: contain;
+  background-origin: border-box;
 }
 
 .agreement {
