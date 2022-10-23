@@ -542,19 +542,10 @@ li {
 
 .form-checkbox {
   position: relative;
-  display: flex;
-  font-display: row;
 }
 .form-checkbox-input {
-  display: flex;
   margin-top: 5px;
-  margin-right: 8.38px;
   margin-bottom: 34px;
-
-  padding: 0;
-  width: 16px;
-  height: 15px;
-  background-color: var(--secondary-text-color);
   cursor: pointer;
   visibility: hidden;
 }
@@ -567,22 +558,18 @@ li {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  margin-right: 0;
   margin-left: 77px;
-  padding-right: 0;
   cursor: pointer;
 }
 
 .checkbox-icon {
   position: absolute;
-  display: inline-block;
   top: 4px;
   left: 54px;
   width: 16px;
   height: 15px;
   border: 2px solid var(--secondary-text-color);
   border-radius: 2px;
-  margin-right: 7px;
 
   transition-property: border;
   transition-duration: 250ms;
@@ -602,9 +589,6 @@ li {
 }
 
 .modal-send-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-right: 163px;
   margin-bottom: 40px;
   margin-left: 165px;
