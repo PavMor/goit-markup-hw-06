@@ -555,6 +555,10 @@ li {
   height: 15px;
   background-color: var(--secondary-text-color);
   cursor: pointer;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .form-checkbox-label {
